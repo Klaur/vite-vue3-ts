@@ -8,6 +8,7 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src",
+    "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
     "fix": "eslint src --fix",
     "prepare": "husky install"
   },

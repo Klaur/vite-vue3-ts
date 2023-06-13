@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
-let list = ref(    [
+let list = ref([
   { id: 1, name: '学习', done: true },
   { id: 2, name: '游戏', done: true },
   { id: 3, name: '睡觉', done: false }
