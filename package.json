@@ -12,7 +12,9 @@
     "commitlint": "commitlint --config commitlint.config.cjs -e -V",
     "fix": "eslint src --fix",
     "preinstall": "node ./scripts/preinstall.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build:test":"vue-tsc && vite build --mode test",
+    "build:prod":"vue-tsc && vite build --mode production"
   },
   "dependencies": {
     "pinia": "^2.1.3",
