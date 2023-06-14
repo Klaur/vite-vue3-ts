@@ -3,7 +3,7 @@
     <nav class="layout-navbar"></nav>
     <div class="layout-menu">
       <el-scrollbar class="layout-menu-scrollbar">
-        <el-menu mode="vertical">
+        <el-menu mode="vertical" router :default-active="activeMenu">
           <Menu :menuList="menuList" />
         </el-menu>
       </el-scrollbar>
@@ -14,9 +14,14 @@
 <script setup lang="ts">
 import Menu from './menu.vue'
 import userStore from '@/store/user'
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 const $store = userStore()
+const $route = useRoute()
+const activeMenu = computed(() => {
+  return $route.name as string
+})
 let menuList = $store.menuRoutes
-console.log(menuList)
 </script>
 <style scoped lang="scss">
 .layout-container {

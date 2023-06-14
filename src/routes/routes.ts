@@ -13,9 +13,15 @@ export const constainRoute = [
     children: [
       {
         path: 'home',
-        meta: { title: '首页' },
+        meta: { title: '首页', icon: 'HomeFilled' },
         component: () => import('@/pages/home/index.vue'),
         name: 'home'
+      },
+      {
+        path: 'dashboard',
+        meta: { title: '看板', icon: 'Histogram' },
+        component: () => import('@/pages/dashboard/index.vue'),
+        name: 'dashboard'
       }
     ]
   },

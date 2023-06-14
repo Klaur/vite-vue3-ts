@@ -4,30 +4,34 @@
     <template v-if="!item.children">
       <el-menu-item v-if="!item.meta?.hidden" :index="item.path">
         <template #title>
-          <span>图标&nbsp;</span>
+          <el-icon><component :is="item.meta?.icon" /></el-icon>
           <span>{{ item.meta?.title }}</span>
         </template>
       </el-menu-item>
     </template>
     <!-- 多路由且子路由为一个 -->
-    <template v-if="item.children && item.children.length === 1">
+    <template v-else-if="item.children && item.children.length === 1">
       <el-menu-item v-if="!item.children[0].meta?.hidden" :index="item.children[0].path">
         <template #title>
-          <span>图标&nbsp;</span>
+          <el-icon><component :is="item.children[0].meta?.icon" /></el-icon>
           <span>{{ item.children[0].meta?.title }}</span>
         </template>
       </el-menu-item>
     </template>
     <!-- 多路由有多个子路由 -->
     <el-sub-menu
-      v-if="item.children && item.children.length > 1 && !item.meta?.hidden"
       :index="item.path"
+      v-if="item.children && item.children.length > 1 && !item.meta?.hidden"
     >
       <template #title>
-        <span>{{ item.meta?.title }}</span>
+        <el-icon>
+          <component :is="item.meta.icon"></component>
+        </el-icon>
+        <span>{{ item.meta.title }}</span>
       </template>
-      <Menu :menulist="item.children" />
+      <Menu :menuList="item.children"></Menu>
     </el-sub-menu>
+    <Menu v-else :menuList="item.children"></Menu>
   </template>
 </template>
 <script setup lang="ts">
