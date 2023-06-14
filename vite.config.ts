@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 // https://vitejs.dev/config/
-export default ({ command }) => {
+export default ({ command }: ConfigEnv): UserConfigExport => {
   return {
     plugins: [
       vue(),
@@ -14,7 +14,7 @@ export default ({ command }) => {
       }),
       viteMockServe({
         mockPath: 'mock',
-        enable: command === 'serve'
+        localEnabled: command === 'serve'
       })
     ],
     css: {
