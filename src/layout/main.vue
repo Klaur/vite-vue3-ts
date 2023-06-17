@@ -24,7 +24,7 @@ watch(
 )
 </script>
 <script lang="ts">
-export default { name: 'Main' }
+export default { name: 'LayoutMain' }
 </script>
 <style scoped lang="scss">
 .fade-enter-from {

@@ -40,7 +40,7 @@ defineProps(['menuList'])
 </script>
 <script lang="ts">
 export default {
-  name: 'Menu'
+  name: 'LayoutMenu'
 }
 </script>
 <style scoped lang="scss"></style>

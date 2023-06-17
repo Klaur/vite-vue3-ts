@@ -10,6 +10,7 @@ export const constainRoute = [
     meta: { hidden: true },
     component: () => import('@/layout/index.vue'),
     name: 'layout',
+    redirect: '/home',
     children: [
       {
         path: 'home',
