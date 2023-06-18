@@ -54,6 +54,6 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'error',
     '@typescript-eslint/no-namespace': 'error',
     '@typescript-eslint/semi': 'off',
-    '@typescript-eslint/ban-ts-comment': 2
+    '@typescript-eslint/ban-ts-comment': 0
   }
 }

@@ -1,8 +1,8 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
-let settingStore = defineStore('setting', () => {
-  let refresh = ref(false)
-  let collapse = ref(false)
+const settingStore = defineStore('setting', () => {
+  const refresh = ref(false)
+  const collapse = ref(false)
   return {
     refresh,
     collapse

@@ -29,9 +29,9 @@
       <template #title>
         <span>{{ item.meta.title }}</span>
       </template>
-      <Menu :menuList="item.children"></Menu>
+      <LayoutMenu :menuList="item.children"></LayoutMenu>
     </el-sub-menu>
-    <Menu v-else :menuList="item.children"></Menu>
+    <LayoutMenu v-else :menuList="item.children"></LayoutMenu>
   </template>
 </template>
 <script setup lang="ts">
