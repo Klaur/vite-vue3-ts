@@ -13,18 +13,24 @@ export const constainRoute = [
     redirect: '/home',
     children: [
       {
-        path: 'home',
+        path: '/home',
         meta: { title: '首页', icon: 'HomeFilled' },
         component: () => import('@/pages/home/index.vue'),
         name: 'home'
       },
       {
-        path: 'dashboard',
+        path: '/dashboard',
         meta: { title: '看板', icon: 'Histogram' },
         component: () => import('@/pages/dashboard/index.vue'),
         name: 'dashboard'
       }
     ]
+  },
+  {
+    path: '/screen',
+    meta: { title: '数据大屏2', icon: 'HomeFilled' },
+    component: () => import('@/pages/screen/index.vue'),
+    name: 'screen'
   },
   {
     path: '/404',

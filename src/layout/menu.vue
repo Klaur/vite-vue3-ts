@@ -21,7 +21,7 @@
     <!-- 多路由有多个子路由 -->
     <el-sub-menu
       :index="item.path"
-      v-if="item.children && item.children.length > 1 && !item.meta?.hidden"
+      v-else-if="item.children && item.children.length > 1 && !item.meta?.hidden"
     >
       <el-icon>
         <component :is="item.meta.icon"></component>

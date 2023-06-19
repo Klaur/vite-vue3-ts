@@ -35,8 +35,8 @@ const $router = useRouter()
 let loading = ref(false)
 let form = ref()
 let formData = reactive({
-  username: '',
-  password: ''
+  username: 'admin',
+  password: 'atguigu123'
 })
 let rules = {
   username: [{ required: true, message: '请输入用户账号', trigger: 'blur' }],

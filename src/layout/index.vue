@@ -78,7 +78,8 @@ export default { name: 'Layout' }
   .layout-main,
   .layout-navbar,
   .layout-menu {
-    transition: all 0.3s;
+    transition: width 0.3s;
+    transition: left 0.3s;
   }
   &.collapse {
     .layout-menu {

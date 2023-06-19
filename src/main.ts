@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import router from './routes'
+import router from './permission'
 import App from './App.vue'
 import store from './store'
 import ElementPlus from 'element-plus'

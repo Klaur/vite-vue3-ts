@@ -50,7 +50,7 @@ module.exports = {
     // typescript
     '@typescript-eslint/no-unused-vars': 'error',
     // '@typescript-eslint/perfer-ts-expect-error': 'error',
-    '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/no-non-null-assertion': 'error',
     '@typescript-eslint/no-namespace': 'error',
     '@typescript-eslint/semi': 'off',

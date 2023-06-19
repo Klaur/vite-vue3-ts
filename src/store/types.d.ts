@@ -1,6 +1,7 @@
 import type { RouteRecordRaw } from 'vue-router'
 export interface UserState {
-  isLogin: Boolean
-  token: String | null
+  isLogin: boolean
+  token: string | null
   menuRoutes: RouteRecordRaw[]
+  username: string
 }

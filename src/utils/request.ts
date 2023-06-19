@@ -1,10 +1,15 @@
 import axios from 'axios'
 import { ElMessage } from 'element-plus'
-let request = axios.create({
+import useUserStore from '@/store/user'
+const request = axios.create({
   baseURL: import.meta.env.VITE_APP_BASE_API,
   timeout: 50000
 })
 request.interceptors.request.use(config => {
+  const userUtore = useUserStore()
+  if (userUtore.token) {
+    config.headers.token = userUtore.token
+  }
   return config
 })
 request.interceptors.response.use(
@@ -20,7 +25,7 @@ request.interceptors.response.use(
     } else {
       // console.log(response.config, customCatch, 'customCatch')
       if (!customCatch) {
-        ElMessage.error(res.data.message || 'Error')
+        ElMessage.error(res.message || 'Error')
       }
       // if ([401].includes(res.code)) {
       //   console.log('全局拦截，登录失效')
