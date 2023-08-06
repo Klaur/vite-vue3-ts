@@ -37,6 +37,7 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "@vue/eslint-config-prettier": "^7.1.0",
     "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
@@ -70,7 +71,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/commitizen"
+      "path": "node_modules/cz-conventional-changelog"
     }
   }
 }
