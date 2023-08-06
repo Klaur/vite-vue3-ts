@@ -1,10 +1,10 @@
-import { getUserInfo, reqLogout } from './../api/user/index'
+import { getUserInfo, reqLogout } from './../../api/user/index'
 import { defineStore } from 'pinia'
 import { login } from '@/api/user'
 import type { loginForm } from '@/api/user/types'
 import type { UserState } from './types'
-import { constainRoute } from '@/routes/routes'
-import { REMOVE_TOKEN } from '@/utils/token'
+import { constainRoute } from '@/pc/routes/routes'
+import { REMOVE_TOKEN } from '@/pc/utils/token'
 const userStore = defineStore('user', {
   state: (): UserState => {
     return {

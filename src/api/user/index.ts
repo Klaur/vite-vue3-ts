@@ -1,4 +1,4 @@
-import request from '@/utils/request'
+import request from '@/pc/utils/request'
 import { loginForm, loginResponseData, userResponseData } from './types'
 enum API {
   LOGIN_URL = '/admin/acl/index/login',

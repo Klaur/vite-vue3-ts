@@ -8,10 +8,10 @@
   </div>
 </template>
 <script setup lang="ts">
-import collapse from '@/components/collapse/index.vue'
-import screen from '@/components/fullScreen/index.vue'
-import settingStore from '@/store/setting'
-import userStore from '@/store/user'
+import collapse from '@/pc/components/collapse/index.vue'
+import screen from '@/pc/components/fullScreen/index.vue'
+import settingStore from '@/pc/store/setting'
+import userStore from '@/pc/store/user'
 import { useRouter } from 'vue-router'
 const $router = useRouter()
 const $userStore = userStore()

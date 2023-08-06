@@ -26,7 +26,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import useUserStore from '@/store/user'
+import useUserStore from '@/pc/store/user'
 import { ref, reactive } from 'vue'
 import { useRouter } from 'vue-router'
 import { ElNotification } from 'element-plus'

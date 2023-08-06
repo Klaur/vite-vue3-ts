@@ -7,7 +7,7 @@
   </router-view>
 </template>
 <script setup lang="ts">
-import settingStore from '@/store/setting'
+import settingStore from '@/pc/store/setting'
 import { watch, ref, nextTick } from 'vue'
 const $store = settingStore()
 let flag = ref(true)

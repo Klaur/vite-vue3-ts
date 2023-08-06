@@ -22,8 +22,8 @@
 <script setup lang="ts">
 import NavBar from './nav.vue'
 import Menu from './menu.vue'
-import userStore from '@/store/user'
-import settingStore from '@/store/setting'
+import userStore from '@/pc/store/user'
+import settingStore from '@/pc/store/setting'
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import Main from './main.vue'

@@ -5,7 +5,7 @@
 </template>
 <script setup lang="ts">
 import { computed } from 'vue'
-import settingStore from '@/store/setting'
+import settingStore from '@/pc/store/setting'
 const $store = settingStore()
 const collapse = computed(() => {
   return $store.collapse ? 'Expand' : 'Fold'
