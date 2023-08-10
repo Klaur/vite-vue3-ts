@@ -1,4 +1,5 @@
 <template>
+  <img src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/banner.png?v=1691647597" />
   <div class="support-moms-page">
     <section class="support-desc">
       <div class="content-wrapper">
@@ -12,7 +13,10 @@
         </p>
         <div class="img-text">
           <div class="img">
-            <img src="./image/banner_2.png" alt="" />
+            <img
+              src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/banner_2.png?v=1691647691"
+              alt=""
+            />
           </div>
           <div class="text">
             <p>
@@ -47,7 +51,11 @@
               Please note: The program does not cover reimbursement for recertification at this
               time.
             </p>
-            <p style="margin-top: 10px"><Button>APPLY TODAY</Button></p>
+            <p style="margin-top: 10px">
+              <a href="https://forms.gle/UwSJmj3N5seSin7q9" target="_blank">
+                <button>APPLY TODAY</button>
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -62,7 +70,10 @@
         <div class="card">
           <dl class="card-01">
             <dt>
-              <img src="./image/3.png" alt="" />
+              <img
+                src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/3.png?v=1691647849"
+                alt=""
+              />
             </dt>
             <dd>
               <h2>01</h2>
@@ -75,7 +86,12 @@
             </dd>
           </dl>
           <dl class="card-02">
-            <dt><img src="./image/4.png" alt="" /></dt>
+            <dt>
+              <img
+                src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/4.png?v=1691647851"
+                alt=""
+              />
+            </dt>
             <dd>
               <h2>02</h2>
               <p>
@@ -110,7 +126,7 @@
         </div>
       </div>
     </section>
-    <section class="support-about">
+    <section class="support-about" id="support-about_230810">
       <div class="content-wrapper">
         <h1 class="support-title">
           How do I apply for
@@ -119,10 +135,18 @@
         </h1>
         <div class="column">
           <dl>
-            <dt></dt>
+            <dt>
+              <img
+                src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/icon1.png?v=1691650806"
+              />
+            </dt>
             <dd>
               <p>
-                Complete the enrollment form by
+                Complete the
+                <a class="normal" target="_blank" href="https://forms.gle/UwSJmj3N5seSin7q9">
+                  enrollment form
+                </a>
+                by
                 <strong>December 31, 2023, 11:59:59 p.m.(CST)</strong>
                 After, you will receive a confirmation email that it has been received from
                 Momcozy's official email,
@@ -131,7 +155,11 @@
             </dd>
           </dl>
           <dl>
-            <dt></dt>
+            <dt>
+              <img
+                src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/icon2.png?v=1691650806"
+              />
+            </dt>
             <dd>
               <p>
                 If selected, you will be prompted to provide relevant documentation: proof of IBCLC
@@ -140,7 +168,11 @@
             </dd>
           </dl>
           <dl>
-            <dt></dt>
+            <dt>
+              <img
+                src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/icon3.png?v=1691650806"
+              />
+            </dt>
             <dd>
               <p>
                 The subsequent reimbursement process will be explained via email after all relevant
@@ -165,7 +197,11 @@
             </li>
           </ul>
         </div>
-        <p style="margin-top: 43px"><button>APPLY TODAY</button></p>
+        <p style="margin-top: 43px">
+          <a href="https://forms.gle/UwSJmj3N5seSin7q9" target="_blank">
+            <button>APPLY TODAY</button>
+          </a>
+        </p>
         <div class="note">
           <p>
             <strong>Note:</strong>
@@ -205,7 +241,11 @@
             expand to ensure stronger, systematized breastfeeding support, for all.
           </p>
           <p class="desc-img">
-            <img src="./image/5.png" alt="" srcset="" />
+            <img
+              src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/5.png?v=1691647706"
+              alt=""
+              srcset=""
+            />
           </p>
           <p class="tip">Photographed by Alicia Samone</p>
           <p class="more">
@@ -215,6 +255,14 @@
           </p>
         </div>
       </div>
+    </section>
+    <section class="apply-now">
+      <a href="#support-about_230810">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/apply-now.png?v=1691647679"
+          alt=""
+        />
+      </a>
     </section>
   </div>
 </template>
@@ -229,6 +277,15 @@
     color: #000;
     font-size: 18px;
     line-height: 30px;
+  }
+  dl,
+  dt,
+  dd {
+    margin: 0;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
   }
   strong {
     font-weight: bold;
@@ -253,6 +310,13 @@
     outline: none;
     border: none;
     background-color: #b87c82;
+    cursor: pointer;
+    text-align: center;
+  }
+  .normal {
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
   }
   .link {
     color: #4669ff;
@@ -268,38 +332,42 @@
       font-family: Montserrat;
       font-weight: bold;
     }
-    ul li {
-      display: flex;
-      .dot {
-        width: 20px;
-        line-height: 30px;
-        &::after {
-          content: '';
-          display: inline-block;
-          /*利用边框boeder设置*/
-          /*border-left:5px solid transparent;
+    ul {
+      li {
+        list-style: none;
+        display: flex;
+        .dot {
+          width: 20px;
+          line-height: 30px;
+          &::after {
+            content: '';
+            display: inline-block;
+            /*利用边框boeder设置*/
+            /*border-left:5px solid transparent;
                border-top:5px solid #fff;
                border-right:5px solid transparent;
                border-bottom-width:0px;*/
 
-          border: 6px solid transparent;
-          // border-right-width: 8px;
-          border-left-width: 10px;
-          // border-top-width: 8px;
-          // border-bottom-width: 8px;
-          border-left-color: #6d2c3c;
+            border: 6px solid transparent;
+            // border-right-width: 8px;
+            border-left-width: 10px;
+            // border-top-width: 8px;
+            // border-bottom-width: 8px;
+            border-left-color: #6d2c3c;
 
-          position: relative; /*微调位置*/
-          top: 0px;
-          left: 1px;
+            position: relative; /*微调位置*/
+            top: 0px;
+            left: 1px;
 
-          width: 0;
-          height: 0;
+            width: 0;
+            height: 0;
+          }
         }
-      }
-      p {
-        word-break: break-word;
-        flex: 1;
+        p {
+          word-break: break-word;
+          flex: 1;
+          margin: 0;
+        }
       }
     }
   }
@@ -322,8 +390,11 @@
       .img-text {
         margin-top: 62px;
         display: flex;
-        column-gap: 140px;
-
+        column-gap: 130px;
+        padding: 0 10px;
+        .img {
+          flex: 1;
+        }
         .text {
           flex-basis: 509px;
         }
@@ -392,6 +463,11 @@
       margin: 0 auto;
       margin-top: 44px;
     }
+    .note {
+      p {
+        margin-top: 40px;
+      }
+    }
   }
   .support-about {
     background-color: #eeefef;
@@ -399,12 +475,16 @@
     .content-wrapper {
       max-width: 1200px;
       margin: 0 auto;
+      padding: 0 20px;
       .column {
         margin-top: 54px;
         display: grid;
         grid-template-columns: repeat(3, auto);
         column-gap: 85px;
         box-sizing: border-box;
+        dt {
+          margin-bottom: 25px;
+        }
       }
       .priority {
         max-width: 1200px;
@@ -416,7 +496,7 @@
       }
       .note {
         p {
-          margin-top: 54px;
+          margin-top: 54px !important;
           font-size: 14px;
           line-height: 22px;
         }
@@ -438,18 +518,138 @@
         color: #5d5d5d;
       }
       .more {
-        margin-top: 40px;
         font-size: 16px;
         line-height: 27px;
+        max-width: 860px;
+        margin: 40px auto 0;
       }
     }
   }
-
+  .apply-now {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    z-index: 111;
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
   .text-left {
     text-align: left;
   }
   .text-center {
     text-align: center;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .support-moms-page {
+    .support-desc {
+      .content-wrapper {
+        .img-text {
+          padding: 20px 40px;
+          column-gap: 60px;
+          .img {
+            flex: 1.2;
+          }
+          .text {
+            flex: 2;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .support-moms-page {
+    .support-desc {
+      .content-wrapper {
+        padding: 0 40px;
+        .title-desc {
+          padding: 0 40px;
+          margin-top: 30px;
+        }
+        .img-text {
+          display: block;
+          padding: 0 60px;
+          margin-top: 50px;
+          .img {
+            margin-bottom: 20px;
+          }
+          button {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+    .support-fund {
+      .content-wrapper {
+        padding: 0 40px;
+      }
+    }
+    .support-about {
+      .content-wrapper {
+        padding: 0 40px;
+        .column {
+          column-gap: 40px;
+        }
+      }
+    }
+    .support-power {
+      .content-wrapper {
+        padding: 0 80px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  button {
+    width: 100%;
+  }
+  .support-moms-page {
+    .support-desc {
+      .content-wrapper {
+        padding: 0 24px;
+        .title-desc {
+          padding: 0 40px;
+          margin-top: 30px;
+        }
+        .img-text {
+          padding: 0 20px;
+          margin-top: 50px;
+          .img {
+            margin-bottom: 20px;
+          }
+          button {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+    .support-fund {
+      .content-wrapper {
+        padding: 0 24px;
+      }
+    }
+    .support-about {
+      .content-wrapper {
+        padding: 0 24px;
+        .column {
+          display: block;
+          dl {
+            margin-bottom: 50px;
+          }
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+    .support-power {
+      .content-wrapper {
+        padding: 0 24px;
+      }
+    }
   }
 }
 </style>
