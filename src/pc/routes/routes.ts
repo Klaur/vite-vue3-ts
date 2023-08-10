@@ -33,6 +33,12 @@ export const constainRoute = [
     name: 'screen'
   },
   {
+    path: '/theme',
+    meta: { title: '专题', icon: 'HomeFilled' },
+    component: () => import('@/pc/pages/theme/index.vue'),
+    name: 'theme'
+  },
+  {
     path: '/404',
     meta: { hidden: true },
     component: () => import('@/pc/pages/404/index.vue'),

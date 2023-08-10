@@ -1,4 +1,3 @@
-import { Local } from 'vant'
 import { UserConfigExport, ConfigEnv, loadEnv } from 'vite'
 import { viteMockServe } from 'vite-plugin-mock'
 import vue from '@vitejs/plugin-vue'
