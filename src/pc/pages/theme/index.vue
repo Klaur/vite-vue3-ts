@@ -1,6 +1,49 @@
 <template>
-  <img src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/banner.png?v=1691647597" />
   <div class="support-moms-page">
+    <section class="support-banner">
+      <img
+        class="pc"
+        loading="eager"
+        src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/breastfeeding-support-program_banner.png?v=1691722319"
+      />
+      <div class="pc-slogan">
+        <p class="slogan">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/2.png?v=1691655012"
+            alt=""
+          />
+          <span>
+            Momcozy Breastfeeding
+            <br />
+            Support Program
+          </span>
+        </p>
+        <h1>
+          Help Create a More
+          <br />
+          Supportive World for Moms
+        </h1>
+      </div>
+      <div class="mobile">
+        <p class="slogan">
+          <img
+            loading="eager"
+            src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/2.png?v=1691655012"
+          />
+          <span>
+            Momcozy Breastfeeding
+            <br />
+            Support Program
+          </span>
+        </p>
+        <h1>Help Create a More Supportive World for Moms</h1>
+        <img
+          src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/banner-moms.png?v=1691654658"
+          loading="eager"
+        />
+      </div>
+    </section>
+
     <section class="support-desc">
       <div class="content-wrapper">
         <h1 class="support-title">It All Starts With Support</h1>
@@ -15,7 +58,7 @@
           <div class="img">
             <img
               src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/banner_2.png?v=1691647691"
-              alt=""
+              loading="lazy"
             />
           </div>
           <div class="text">
@@ -23,12 +66,14 @@
               Momcozy will join the global initiative to uplift working mothers and parents with the
               launch of our
               <strong>Breastfeeding Support Program</strong>
-              . The program will offer a full suite of support for breastfeeding moms, beginning
-              with our
+              <span>.</span>
+              The program will offer a full suite of support for breastfeeding moms, beginning with
+              our
               <strong>Lactation Consultant Scholarship Fund</strong>
-              . Momcozy’s Lactation Consultant Scholarship Fund will offer full exam reimbursement
-              to moms who have sat for and passed the IBCLC exam; moms who have chosen to help
-              forward breastfeeding as their profession.
+              <span>.</span>
+              Momcozy’s Lactation Consultant Scholarship Fund will offer full exam reimbursement to
+              moms who have sat for and passed the IBCLC exam; moms who have chosen to help forward
+              breastfeeding as their profession.
             </p>
             <p>
               <br />
@@ -40,18 +85,20 @@
             <p><br /></p>
             <p>
               <strong>
-                Who is eligible to apply for the Lactation Consultant Scholarship Fund?
+                <!-- Who is eligible to apply for the Lactation Consultant Scholarship Fund? -->
+                What will I gain from Momcozy's Breastfeeding Support Program?
               </strong>
             </p>
             <p>
-              Full reimbursement of the 2022 & 2023 (Spring/Fall) IBCLC exam registration fee via
+              Full reimbursement of the 2022 or 2023 (Spring/Fall) IBCLC exam registration fee via
               the Lactation Consultant Scholarship Fund.
             </p>
-            <p style="font-size: 14px; color: #555555; line-height: 20px">
+            <p><br /></p>
+            <p style="font-size: 14px; color: #555555; line-height: 18px">
               Please note: The program does not cover reimbursement for recertification at this
               time.
             </p>
-            <p style="margin-top: 10px">
+            <p style="margin-top: 8px">
               <a href="https://forms.gle/UwSJmj3N5seSin7q9" target="_blank">
                 <button>APPLY TODAY</button>
               </a>
@@ -72,7 +119,7 @@
             <dt>
               <img
                 src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/3.png?v=1691647849"
-                alt=""
+                loading="lazy"
               />
             </dt>
             <dd>
@@ -89,7 +136,7 @@
             <dt>
               <img
                 src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/4.png?v=1691647851"
-                alt=""
+                loading="lazy"
               />
             </dt>
             <dd>
@@ -100,7 +147,7 @@
                 lactation services in
                 <br />
                 <strong>North America</strong>
-                .
+                <span>.</span>
               </p>
             </dd>
           </dl>
@@ -137,6 +184,7 @@
           <dl>
             <dt>
               <img
+                loading="lazy"
                 src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/icon1.png?v=1691650806"
               />
             </dt>
@@ -150,13 +198,14 @@
                 <strong>December 31, 2023, 11:59:59 p.m.(CST)</strong>
                 After, you will receive a confirmation email that it has been received from
                 Momcozy's official email,
-                <a href="mailto:pr@momcozy.com" class="link">pr@momcozy.com.</a>
+                <a href="mailto:bsp@momcozy.com" class="link">bsp@momcozy.com</a>
               </p>
             </dd>
           </dl>
           <dl>
             <dt>
               <img
+                loading="lazy"
                 src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/icon2.png?v=1691650806"
               />
             </dt>
@@ -170,6 +219,7 @@
           <dl>
             <dt>
               <img
+                loading="lazy"
                 src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/icon3.png?v=1691650806"
               />
             </dt>
@@ -243,15 +293,14 @@
           <p class="desc-img">
             <img
               src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/5.png?v=1691647706"
-              alt=""
-              srcset=""
+              loading="lazy"
             />
           </p>
           <p class="tip">Photographed by Alicia Samone</p>
           <p class="more">
             If you have any questions about the program or would like to inquire about the fund or
             potential partnership with Momcozy, please contact
-            <a href="mailto:pr@momcozy.com" class="link">pr@momcozy.com.</a>
+            <a href="mailto:bsp@momcozy.com" class="link">bsp@momcozy.com</a>
           </p>
         </div>
       </div>
@@ -260,7 +309,7 @@
       <a href="#support-about_230810">
         <img
           src="https://cdn.shopify.com/s/files/1/0769/6138/2681/files/apply-now.png?v=1691647679"
-          alt=""
+          loading="eager"
         />
       </a>
     </section>
@@ -271,12 +320,17 @@
 .support-moms-page {
   font-family: Montserrat;
   background-color: #f8f8f8;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 0;
+  }
   p {
     font-family: Montserrat-light;
-    // font-weight: lighter;
     color: #000;
     font-size: 18px;
     line-height: 30px;
+    margin: 0;
   }
   dl,
   dt,
@@ -371,6 +425,47 @@
       }
     }
   }
+  .support-banner {
+    position: relative;
+    background-color: #f3ede2;
+    .mobile {
+      display: none;
+    }
+    .pc {
+      margin: 0 auto;
+      display: block;
+    }
+    .pc-slogan {
+      position: absolute;
+      margin: auto;
+      top: 64%;
+      left: 42%;
+      // top: 40%;
+      // left: 50vw;
+      transform: translate3d(-100%, -100%, 0);
+      max-width: 700px;
+      h1 {
+        margin-top: 83px;
+        text-align: left;
+      }
+      .slogan {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        line-height: 32px;
+
+        img {
+          max-width: 78px;
+          margin-right: 27px;
+        }
+        span {
+          flex: 1;
+          color: #b87c82;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
   .support-desc {
     padding-top: 97px;
     .support-title {
@@ -390,13 +485,19 @@
       .img-text {
         margin-top: 62px;
         display: flex;
-        column-gap: 130px;
+        column-gap: 120px;
         padding: 0 10px;
+        align-items: flex-end;
         .img {
           flex: 1;
+          font-size: 0;
+          img {
+            width: 100%;
+          }
         }
         .text {
-          flex-basis: 509px;
+          flex-basis: 504px;
+          // flex: 1;
         }
       }
     }
@@ -489,7 +590,7 @@
       .priority {
         max-width: 1200px;
         margin: 0 auto;
-        margin-top: 124px;
+        margin-top: 64px;
         h3 {
           color: #6d2c3c;
         }
@@ -544,16 +645,58 @@
 }
 @media screen and (max-width: 1400px) {
   .support-moms-page {
+    .support-banner {
+      position: relative;
+      background-color: #f3ede2;
+      .mobile {
+        display: none;
+      }
+      .pc {
+        margin: 0 auto;
+        display: block;
+      }
+      .pc-slogan {
+        position: absolute;
+        margin: auto;
+        top: 72%;
+        left: 50%;
+        // top: 40%;
+        // left: 50vw;
+        transform: translate3d(-100%, -100%, 0);
+        max-width: 500px;
+        h1 {
+          margin-top: 43px;
+          text-align: left;
+        }
+        .slogan {
+          display: flex;
+          align-items: center;
+          font-size: 24px;
+          line-height: 32px;
+
+          img {
+            max-width: 78px;
+            margin-right: 27px;
+          }
+          span {
+            flex: 1;
+            color: #b87c82;
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
     .support-desc {
       .content-wrapper {
         .img-text {
           padding: 20px 40px;
           column-gap: 60px;
+          align-items: center;
           .img {
-            flex: 1.2;
+            flex: 1;
           }
           .text {
-            flex: 2;
+            flex: 1.5;
           }
         }
       }
@@ -562,6 +705,36 @@
 }
 @media screen and (max-width: 1024px) {
   .support-moms-page {
+    .support-banner {
+      .pc {
+        display: none;
+      }
+      .pc-slogan {
+        display: none;
+      }
+      .mobile {
+        display: block;
+        background-color: #f3ede2;
+        padding: 20px 20px 60px;
+        text-align: center;
+        h1 {
+          margin: 40px 0;
+        }
+        .slogan {
+          display: flex;
+          align-items: center;
+          font-size: 24px;
+          line-height: 32px;
+          img {
+            max-width: 60px;
+          }
+          span {
+            flex: 1;
+            color: #b87c82;
+          }
+        }
+      }
+    }
     .support-desc {
       .content-wrapper {
         padding: 0 40px;
